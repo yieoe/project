@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: gray;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
