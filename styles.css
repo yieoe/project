@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 40px 20px;
+  background-color: #eef0f2;
+}
+.hero .hero-text {
+  text-align: center;
+  font-size: 16px;
+}
+
+.hero-image {
+  width: 640px;
+  height: 293px;
+  border-radius: 8px;
+}
+
+.hero-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input-field {
+  width: 324px;
+  height: 45px;
+  border-radius: 8px;
+  border-color: #eef0f2;
+}
+.submit-buttom {
+  width: 98px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #3366ff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.product {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.product h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-item a {
+  text-decoration: none;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 640px;
+  height: 692px;
+  row-gap: 12px;
+  margin-inline: auto;
+  text-decoration: none;
+}
+.card-item {
+  width: 314px;
+  height: 310px;
+  border: 1px solid, #d8d8d8;
+  border-radius: 8px;
+}
+
+.card-color1 {
+  background-color: #ffc800;
+  width: 314px;
+  height: 160px;
+  border-radius: 8px;
+}
+.card-color2 {
+  background-color: #2e68c0;
+  width: 314px;
+  height: 160px;
+  border-radius: 8px;
+}
+.card-color3 {
+  background-color: #ea1542;
+  width: 314px;
+  height: 160px;
+  border-radius: 8px;
+}
+
+.card-color4 {
+  background-color: #1d4ed8;
+  width: 314px;
+  height: 160px;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-socials {
+  display: flex;
+  gap: 70px;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.footer-text .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.footer-links a {
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text p {
+  font-size: 14px;
+  text-align: center;
+}
